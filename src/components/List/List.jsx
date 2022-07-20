@@ -1,6 +1,7 @@
 const List = (props) => {
 	const { items = [] } = props;
 	if(!items.length) return null;
+	console.log(items);
 	return (
 		<>
 			<ul className = "list">
@@ -10,7 +11,7 @@ const List = (props) => {
 					})
 				}
 			</ul>
-			<span>html</span>
+			
 		</>
 	)
 }

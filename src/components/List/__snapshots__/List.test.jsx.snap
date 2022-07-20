@@ -69,18 +69,12 @@ Object {
       <ul
         class="list"
       />
-      <span>
-        html
-      </span>
     </div>
   </body>,
   "container": <div>
     <ul
       class="list"
     />
-    <span>
-      html
-    </span>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

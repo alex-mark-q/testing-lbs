@@ -1,4 +1,5 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import List from './List';
 
 const data = ['html', 'css', 'js'];

@@ -1,3 +1,6 @@
+import classes from './Search.module.css';
+import cn from 'classnames';
+
 const Search  = (props) => {
 	const {
 		value,
@@ -5,10 +8,17 @@ const Search  = (props) => {
 		children = 'Search',
 		placeholder = 'search...'
 	} = props;
+
+	const inputClass = cn({
+		[classes.input]: true,
+		[classes.filled]: value.length,
+	})
+
 	return (
-		<label>
+		<label className = {classes.label}>
 			{children}
-			<input 
+			<input
+				className = {inputClass} 
 				type = "text"
 				value = {value}
 				onChange = {onChange}
