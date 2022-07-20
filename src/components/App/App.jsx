@@ -1,44 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import List from '../List';
+
+const data = [
+  'HTML',
+  'CSS',
+  'JS',
+  'TS',
+  'React',
+  'Angular',
+  'NodeJS'
+];
 
 function App() {
-  return <div className = "container my-5">
-    <form action = "">
-      <div className = "mb-3">
-        <label htmlFor = "email" className = "form-label">
-          
-        </label>
-        <input  
-          type = "email" 
-          id = "email" 
-          name = "email" 
-          className = "form-control"
-        />
+  return (
+    <div className = "App">
+      <div className = "App-header">
+        <List items = {data} />
       </div>
-      <div className = "mb-3">
-        <label htmlFor = "password" className = "form-label">
-          Password
-        </label>
-        <input  
-          type = "password" 
-          id = "password" 
-          name = "password" 
-          className = "form-control"
-        />
-      </div>
-      <div className = "mb-3">
-        <label htmlFor = "confirm-password" className = "form-label">
-          Confirm Password
-        </label>
-        <input  
-          type = "password" 
-          id = "confirm-password" 
-          name = "confirm-password" 
-          className = "form-control"
-        />
-      </div>
-    </form>
-  </div>;
+    </div>
+  )
 }
 
 export default App;
