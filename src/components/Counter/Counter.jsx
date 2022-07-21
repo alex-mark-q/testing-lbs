@@ -16,6 +16,7 @@ function Counter ({initialCount}) {
   const switchSigns = () => {
     setCount((prev) => prev * -1);
   };
+  
 	return (
 		<div>
       <h1>
