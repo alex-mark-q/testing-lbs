@@ -11,7 +11,8 @@ const data = [
   'TS',
   'React',
   'Angular',
-  'NodeJS'
+  'NodeJS',
+  'C#'
 ];
 
 function App() {
