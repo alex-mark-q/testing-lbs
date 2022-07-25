@@ -8,11 +8,7 @@ const data = [
   'HTML',
   'CSS',
   'JS',
-  'TS',
-  'React',
-  'Angular',
-  'NodeJS',
-  'C#'
+  'TS'
 ];
 
 function App() {
